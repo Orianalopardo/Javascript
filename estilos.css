@@ -134,30 +134,3 @@ footer{
 .subir:hover{
     background-color: gray;
 }
-/*simulador interactivo*/
-#products, #cart {
-    width: 50%;
-    float: left;
-    padding: 10px;
-  }
-  
-  #cart {
-    background-color: #f0f0f0;
-  }
-  
-  #cart-items {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #cart-total {
-    font-weight: bold;
-  }
-  
-  .add-to-cart-btn {
-    margin-left: 10px;
-  }
-  
-  button {
-    cursor: pointer;
-  }
