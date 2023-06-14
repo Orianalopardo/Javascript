@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(204, 147, 156);
+    height: 150%;
+    font-size: 22px;
+    font-family: 'Times New Roman', ;
+    text-transform: capitalize;
+    padding: 40px;
+}
+.logo{
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+.logo span{
+    color: black;
+}
+
+
+/* MAIN */
+
+main{
+    height: 100vh;
+    background-color: rgb(44, 33, 35);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(fondo.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.containerMain{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    float: left;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+h1{
+    color: rgb(17, 15, 19);
+    color: white;
+    font-size: 2rem;
+}
+
+.call p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.callButton{
+    margin-top: 8px;
+}
+
+.call a{
+    color: rgb(199, 154, 182);
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    
+}
+
+.call a:hover{
+    background-color: white;
+    color: white;
+    background-color: rgb(199, 154, 182);
+}
+
+.sec{
+    background-color: rgb(29, 20, 22);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.cont{
+    height: 600px;
+    
+    background-color: rgb(216, 198, 204);
+}
+footer{
+    background-color: rgb(37, 35, 35);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+    
+}
+.redes i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.redes i:hover{
+    color: gray;
+}
+
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.subir:hover{
+    background-color: gray;
+}
+/*simulador interactivo*/
+#products, #cart {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  
+  #cart {
+    background-color: #f0f0f0;
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #cart-total {
+    font-weight: bold;
+  }
+  
+  .add-to-cart-btn {
+    margin-left: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }

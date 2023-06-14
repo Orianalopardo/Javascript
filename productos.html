@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="LOGO.jpg" type="image/x-icon">
+    <title>Productos</title>
+</head>
+<body>
+    <div id="products">
+        <h2>Productos disponibles</h2>
+        <ul id="product-list">
+        <li>
+            <span>Producto 1</span>
+            <span>$10</span>
+            <button class="add-to-cart-btn" onclick="addToCart(10)">Agregar al carrito</button>
+        </li>
+        <li>
+            <span>Producto 2</span>
+            <span>$20</span>
+            <button class="add-to-cart-btn" onclick="addToCart(20)">Agregar al carrito</button>
+        </li>
+        <li>
+            <span>Producto 3</span>
+            <span>$30</span>
+            <button class="add-to-cart-btn" onclick="addToCart(30)">Agregar al carrito</button>
+        </li>
+        </ul>
+    </div>
+    
+    <div id="cart">
+        <h2>Carrito de compras</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0</p>
+    </div>
+</body>
+</html>
